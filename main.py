@@ -1,6 +1,8 @@
 from pystardict import Dictionary
 import datetime, os, sys
 
+# Download the dict from http://download.huzheng.org/zh_CN/
+
 class MyDict:
     lazyworm_path = './stardict-lazyworm-ec-2.4.2/lazyworm-ec'
     quick_path ='./stardict-quick_eng-zh_CN-2.4.2/quick_eng-zh_CN'
